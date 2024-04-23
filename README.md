@@ -7,7 +7,7 @@ I like using [MIA](https://github.com/mpieva/mapping-iterative-assembler/) to as
 
 ## Obtaining a consensus FASTA file from MIA
 
-[MIA](https://github.com/mpieva/mapping-iterative-assembler/) outputs a `maln` file. The file name is usually `assembly.maln.iter`, where `iter` is the number of iterations MIA took to produce the final file. It will look like `assembly.maln.3`, for example, if it took 3 iterations. In order to create a consensus FASTA file, most people a second program that comes packaged with MIA, `ma`. `ma` can parse the `maln` file and is able to create many different outputs.
+[MIA](https://github.com/mpieva/mapping-iterative-assembler/) outputs a `maln` file. The file name is usually `assembly.maln.iter`, where `iter` is the number of iterations MIA took to produce the final file. It will look like `assembly.maln.3`, for example, if it took 3 iterations. In order to create a consensus FASTA file, most people use a second program that comes packaged with MIA, `ma`. `ma` can parse the `maln` file and is able to create many different outputs.
 
 To use the `create_fasta_from_mia.py` script you'll need to first create a `.41` file. You can do that this way:
 
