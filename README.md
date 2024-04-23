@@ -1,4 +1,4 @@
-# MIA Helper Scripts # mia-helper-scripts
+# MIA Helper Scripts
 Scripts to make using MIA (mapping-iterative-assembler) easier
 
 ## Intro
