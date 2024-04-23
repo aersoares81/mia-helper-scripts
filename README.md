@@ -1,5 +1,5 @@
 # MIA Helper Scripts
-Scripts to make using MIA (mapping-iterative-assembler) easier
+### Scripts to make using MIA (mapping-iterative-assembler) easier
 
 ## Intro
 
