@@ -22,7 +22,7 @@ The simplest way to run the script is:
 python create_fasta_from_mia.py -m assembly.41
 ```
 
-The script has a number of default paramters que that can be changed:
+The script has a number of default parameters que that can be changed:
 
 ```
   -c COVERAGE, --coverage COVERAGE
@@ -38,9 +38,9 @@ The script has a number of default paramters que that can be changed:
                         Output .fasta file
 ```
 
-If you don't provide any parameters, it will create the FASTA file using a 3x minimum coverage for each ste that also has a quality score >40. The default file name and sequence name inside the FASTA file is whatever you name your `assembly.41` file, minus the file extensions.
+If you don't provide any parameters, it will create the FASTA file using a 3x minimum coverage for each site that also has a quality score >40. The default file name and sequence name inside the FASTA file is whatever you named your `assembly.41` file, minus the file extensions.
 
-So, let's say you want a mininum of 15x coverage at a given site to call consensus, and you want your file to be named strict.fasta, you need to run it like this:
+Another example: let's say you want a mininum of 15x coverage at a given site to call consensus, and you want your file to be named strict.fasta, you'd need to run the script like this:
 
 ```
 python create_fasta_from_mia.py -m assembly.41 -c 15 -o strict.fasta
@@ -48,8 +48,8 @@ python create_fasta_from_mia.py -m assembly.41 -c 15 -o strict.fasta
 
 ## Requirements
 
-You need to have `python` in your system. I am also assuming you're capable of running `mia` and `ma` in your system to prepare the input file for the script. If you don't, check [MIA](https://github.com/mpieva/mapping-iterative-assembler/)'s repository.
+You need to have `python` in your system. I am also assuming you're capable of running `mia` and `ma` in order to prepare the input file for the script. If you don't, check [MIA](https://github.com/mpieva/mapping-iterative-assembler/)'s repository.
 
 ## Future developments
 
-I plan on skipping running `ma` and use the `maln` file straight out of MIA, but I haven't had  the time to do so.
+I plan on skipping running `ma`, using the `maln` file straight out of MIA, but I haven't had the time to do so.
