@@ -14,7 +14,7 @@ To use the `create_fasta_from_mia.py` script you'll need to first create a `.41`
 ```
 ma -M assembly.maln.3 -f 41 > assembly.41
 ```
-Of course, replace `assembly.maln.3` with your file name. One you have your `assembly.41` file you're ready to use `create_fasta_from_mia.py`.
+Of course, replace `assembly.maln.3` with your file name. Once you have your `assembly.41` file you're ready to use `create_fasta_from_mia.py`.
 
 The simplest way to run the script is:
 
